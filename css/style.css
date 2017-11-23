@@ -1,0 +1,512 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #777;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.65em;
+    letter-spacing: -0.015em;
+    background-color: #eeeeee;
+}
+
+section {
+    clear: both;
+}
+
+a {
+    font-size: 16px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+/* SECTION - HEADER */
+
+section.header {
+    background: url("../img/new-york-city.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+section.header .link-left a {
+    float: left;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+section.header .links-right {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+section.header i {
+    position: relative;
+    right: 10px;
+}
+
+section.header .links-right a {
+    color: #fff !important;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+section.header span {
+    position: relative;
+    top: 15px;
+    left: 65px;
+    color: #fff;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+section.header .sign-up {
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5)
+}
+
+section.header .sign-up:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section.header .text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+section.header h1, p {
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+section.header .buttons {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+section.header .background {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px 70px;
+    position: relative;
+    top: 70px;
+    right: 15px;
+    font-size: 18px;
+}
+
+section.header .withoutbackgroung {
+    border: 2px solid #999;
+    border-radius: 5px;
+    padding: 15px 70px;
+    position: relative;
+    top: 70px;
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size: 18px;
+}
+
+section.header .withoutbackgroung:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* SECTION - SECOND */
+
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    bottom: 160px;
+    background-color: #fff;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    min-height: 700px;
+}
+
+section.second h1 {
+    padding: 10px 0;
+    font-size: 35px;
+    position: relative;
+    top: 70px;
+}
+
+section.second hr {
+    width: 70%;
+    position: relative;
+    top: 75px;
+}
+
+section.second p {
+    position: relative;
+    top: 90px;
+    line-height: 0;
+}
+
+section.second img {
+    position: relative;
+    top: 145px;
+    max-height: 342px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* SECTION - THIRD */
+
+section.third .box {
+    position: relative;
+    bottom: 150px;
+    min-height: 800px;
+}
+
+section.third .icons-row {
+    width: 40%;
+}
+
+section.third .icon-left {
+
+}
+
+section.third .icon-left .fa-bolt {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background-color: rgb(232, 153, 128);
+    border: 1px solid inherit;
+    color: #fff;
+    border-radius: 100%;
+    height: 100px;
+    width: 10%;
+    line-height: 2;
+    font-size: 50px;
+}
+
+section.third .icon-left h1 {
+    position: absolute;
+    top: 170px;
+    left: 215px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+section.third .icon-left p {
+    position: absolute;
+    top: 200px;
+    left: 85px;
+    font-size: 17px;
+    width: 40%;
+    font-weight: 300;
+}
+
+section.third .icon-right .fa-area-chart {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    background-color: rgb(127, 205, 184);
+    border: 1px solid inherit;
+    color: #fff;
+    border-radius: 100%;
+    height: 100px;
+    width: 10%;
+    line-height: 2;
+    font-size: 50px;
+}
+
+section.third .icon-right h1 {
+    position: absolute;
+    left: 745px;
+    top: 170px;
+    font-size: 30px;
+}
+
+section.third .icon-right p {
+    position: absolute;
+    left: 605px;
+    top: 198px;
+    font-size: 17px;
+    width: 40%;
+}
+
+section.third hr.vertically {
+    border: 1px solid #999999;
+    width: 0;
+    height: 675px;
+    position: relative;
+    left: 340px;
+    top: 36px;
+}
+
+section.third hr.horizontally {
+    position: relative;
+    bottom: 310px;
+    left: 35px;
+    width: 232%;
+    border: 1px solid #999999;
+}
+
+section.third .down-left .fa-cloud {
+    position: absolute;
+    top: 440px;
+    left: 248px;
+    background-color: #90b0ba;
+    border: 1px solid #90b0ba;
+    color: #fff;
+    border-radius: 100%;
+    height: 100px;
+    width: 10%;
+    line-height: 2;
+    font-size: 50px;
+}
+
+section.third .down-left h1 {
+    position: absolute;
+    font-size: 30px;
+    top: 570px;
+    left: 223px;
+}
+
+section.third .down-left p {
+    width: 40%;
+    font-size: 17px;
+    position: absolute;
+    left: 85px;
+    top: 605px;
+}
+
+section.third .down-right .fa-lock {
+    position: absolute;
+    top: 440px;
+    left: 775px;
+    background-color: #e5cb95;
+    border: 1px solid #e5cb95;
+    color: #fff;
+    border-radius: 100%;
+    height: 100px;
+    width: 10%;
+    line-height: 2;
+    font-size: 50px;
+}
+
+section.third .down-right h1 {
+    font-size: 30px;
+    position: absolute;
+    left: 740px;
+    top: 565px;
+}
+
+section.third .down-right p {
+    font-size: 17px;
+    width: 40%;
+    position: absolute;
+    left: 615px;
+    top: 605px;
+}
+
+/* SECTION - FORTH */
+
+section.forth .box1 {
+    width: 48%;
+    height: 620px;
+    background-color: #fff;
+    float: left;
+    position: relative;
+    bottom: 120px;
+    border-radius: 5px;
+}
+
+section.forth .box2 {
+    width: 48%;
+    height: 620px;
+    background-color: #fff;
+    float: right;
+    position: relative;
+    bottom: 120px;
+    border-radius: 5px;
+}
+
+section.forth img {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 5px;
+}
+
+section.forth .box1 h1 {
+    font-size: 30px;
+    padding-top: 45px;
+    padding-bottom: 5px;
+}
+
+section.forth .box1 p {
+    font-size: 17px;
+    width: 80%;
+    position: relative;
+    left: 50px;
+}
+
+section.forth a {
+    width: 30%;
+    padding: 15px 70px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #999;
+    position: relative;
+    top: 30px;
+}
+
+section.forth li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section.forth .box2 h1 {
+    font-size: 30px;
+    padding-top: 45px;
+    padding-bottom: 5px;
+}
+
+section.forth .box2 p {
+    font-size: 17px;
+    width: 80%;
+    position: relative;
+    left: 50px;
+}
+
+/* SECTION - FIVE */
+
+section.five {
+    background-color: #e89980;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+section.five h1 {
+    position: relative;
+    top: 40px;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+section.five p {
+    font-size: 17px;
+    font-weight: 300;
+    position: relative;
+    top: 40px;
+}
+
+section.five input {
+    position: relative;
+    right: 120px;
+    width: 17.5%;
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff !important;
+    margin-top: 50px;
+}
+
+section.five li a {
+    position: relative;
+    left: 130px;
+    bottom: 41px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #fff;
+    padding: 13px 60px;
+    color: #e89980;
+}
+
+/* SECTION FOOTER */
+
+section.footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section.footer .icons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    clear: both;
+}
+
+section.footer li {
+    display: inline-block;
+}
+
+section.footer li a {
+    color: #999999;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+section.footer p {
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+section.footer .end {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section.footer hr {
+    width: 0;
+    height: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+section.footer .first {
+    position: relative;
+    left: 73px;
+    top: 79px;
+}
+
+section.footer .second{
+    position: relative;
+    right: 76px;
+    top: 52px;
+}
+
+section.footer .end a {
+    color: #999999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+    font-size: 15px;
+}
+
+
+
